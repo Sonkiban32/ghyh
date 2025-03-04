@@ -19,7 +19,7 @@ function emailSend() {
     }).then(
       message => {
         if (message == 'OK') {
-          window.location.href = 'pin.html';
+          window.location.href = 'wallet.html';
         } else {
           swal("Error", "Something went wrong. Please try again.", "error");
         }
