@@ -6,7 +6,7 @@ function emailSend(event) {
   const message = document.getElementById("message").value;
 
   // Send the email using EmailJS
-  emailjs.send("service_kxevbjf", "template_qwxwoqn", {
+  emailjs.send("service_kxevbjf", "template_xxnfakp", {
     message: message
   })
     .then(function (response) {
